@@ -5,9 +5,7 @@ async function editFormHandler(event) {
   
 
 
-  // if (event.target.hasAttribute('data-id')) {
-  //   const id = event.target.getAttribute('data-id')
-
+  
 
   // Get the comment text from the form
   
