@@ -2,10 +2,7 @@ async function editFormHandler(event) {
   event.preventDefault();
 
 
-  // get the blog id from the url
-  // const id = window.location.toString().split('/')[
-  //     window.location.toString().split('/').length - 1
-  // ];
+  
 
 
   // if (event.target.hasAttribute('data-id')) {
