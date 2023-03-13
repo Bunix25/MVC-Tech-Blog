@@ -17,7 +17,7 @@ router.get('/', async (req, res) => {
         }
 });
 
-// create new comment
+// create new 
 router.post('/', withAuth, async (req, res) => {
   // console.log("YOU HIT /api/post");
   // console.log("REQ.BODY IS=", req.body);
