@@ -40,11 +40,3 @@ const delButtonHandler = async (event) => {
   }
 };
 
-// event listener for buttons
-document
-  .querySelector('.new-blog-form')
-  .addEventListener('submit', newFormHandler);
-
-document
-  .querySelector('.blog-list')
-  .addEventListener('click', delButtonHandler);
