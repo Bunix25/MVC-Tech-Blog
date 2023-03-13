@@ -24,7 +24,3 @@ const newFormHandler = async (event) => {
   }
 };
 
-// event listener 
-document
-  .querySelector('.new-blog-form')
-  .addEventListener('submit', newFormHandler);
