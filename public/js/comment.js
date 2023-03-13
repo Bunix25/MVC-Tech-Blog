@@ -5,7 +5,7 @@ const newFormHandler = async (event) => {
   const comment = document.querySelector('#blog-desc').value;
   const blog_id = document.querySelector('#blog_id').textContent;
 
-   // create and post new comment page
+   // create and post new 
    if (comment) {
     const response = await fetch(`/api/comments`, {
       method: 'POST',
@@ -24,3 +24,7 @@ const newFormHandler = async (event) => {
   }
 };
 
+// event listener 
+document
+  .querySelector('.new-blog-form')
+  .addEventListener('submit', newFormHandler);
