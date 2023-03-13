@@ -4,14 +4,7 @@ const withAuth = require('../utils/auth');
 
 
 
-//       const blogs = blogData.map(blog => blog.toJSON());
-//       // render to 
-//       res.status(200).render('/', { blogs });
-     
-//       } catch (err) {
-//       res.status(500).json(err);
-//       }
-// });
+
 
 
 
