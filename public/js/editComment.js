@@ -2,11 +2,6 @@ async function editFormHandler(event) {
   event.preventDefault();
 
 
-  
-
-
-  
-
   // Get the comment text from the form
   
   const comment = document.querySelector("#comment").value;
