@@ -1,5 +1,4 @@
 
-
 // sequelize connection
 
 
