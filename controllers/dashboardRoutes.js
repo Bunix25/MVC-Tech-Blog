@@ -3,11 +3,6 @@ const { Blog, User, Comment } = require('../models');
 const withAuth = require('../utils/auth');
 
 
-
-
-
-
-
 router.get('/editBlog/:id', withAuth, async (req, res) => {
   
   try {
@@ -30,8 +25,6 @@ router.get('/editBlog/:id', withAuth, async (req, res) => {
 
   }
 });
-
-
 
 
 
