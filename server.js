@@ -1,6 +1,10 @@
 require('dotenv').config();
 
 const path = require('path');
+//app.use('/favicon.ico', express.static(path.join(__dirname, 'public', 'favicon.ico')));
+
+
+
 const express = require('express');
 const session = require('express-session');
 const exphbs = require('express-handlebars');
